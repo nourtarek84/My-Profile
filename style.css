@@ -1,0 +1,63 @@
+
+
+h1 {
+    font-size: 15px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+background: linear-gradient(90deg,blue,white);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+}
+
+.profile, .about, .skills {
+    background-color: rgb(246, 246, 246);
+    border: 1px solid,black;
+    padding: 20px;
+    width: 30%;
+}
+
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 6px;
+   border: 6px,dotted,blue;
+}
+
+footer {
+    background-color: #1976d2;
+    color: aqua;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+header {
+    background-color: #1976d2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 50px; 
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 50%; 
+}
+
